@@ -1,6 +1,7 @@
 mPDF 8.0.x
 ===========================
 
+* Notice prevented in `Mpdf\Mpdf::GetFullPath()`
 * Ability to customize User-Agent header in the HTTP requests sent by cURL (@samuelecat, #1229)
 * Add Page Number Myanmar Language Support (@MinKyawNyunt, #1201)
 * new `Mpdf\Exception\FontException` extending base `MpdfException` was introduced and is thrown on Font manipulation
